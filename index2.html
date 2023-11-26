@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style2.css" />
+  <title>Flex</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <span class="nav_logo"> <a href="#"><strong>Studily</strong></a></span>
+      <span class="nav_shop">
+        <ul class="nav_shop_item">
+          <li><a href="#">New Arrive</a></li>
+          <li><a href="#">Clothes</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Bag</a></li>
+          <li><a href="#">Shoe</a></li>
+        </ul>
+      </span>
+
+      <div class="nav_right">
+        <span class="material-symbols-outlined">
+          person
+        </span>
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+        <span class="material-symbols-outlined">
+          search
+        </span>
+        <span class="material-symbols-outlined">
+          settings
+        </span>
+      </div>
+
+
+    </div>
+
+  </header>
+  <main>
+    <div class="nav_product">
+      <span>
+        <h1 class="head-h">New Arrive</h1>
+      </span>
+      <span class="choice">
+        <label for="fillter">FILTER BY:</label>
+        <select id="filter" name="fillter">
+          <option value="All">All</option>
+          <option value="Clothes">Clothes</option>
+          <option value="Jewelry">Jewelry</option>
+          <option value="bag">Bag</option>
+          <option value="Shoe">Shoe</option>
+        </select>
+        <label for="sort">SORT BY:</label>
+        <select name="sort" id="sort">
+          <option value="minprice">Min-Price</option>
+          <option value="maxprice">Max-Price</option>
+          <option value="maxprice">Max-Price</option>
+          <option value="maxprice">Max-Price</option>
+        </select>
+      </span>
+    </div>
+    <div class="product">
+      <span class="product_item"><img src="https://cdn.pixabay.com/photo/2017/08/01/11/48/woman-2564660_640.jpg"
+          alt="jean"></img>
+        <h2>Jean</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $120</p>
+      </span>
+      <span class="product_item"><img src="https://cdn.pixabay.com/photo/2015/02/19/12/59/man-642063_640.jpg"
+          alt="bow tie"></img>
+        <h2>Bow tie</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $20</p>
+      </span>
+      <span class="product_item"><img src="https://cdn.pixabay.com/photo/2016/03/27/19/31/fashion-1283863_640.jpg"
+          alt="knitwear"></img>
+        <h2>Knitwear</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $95</p>
+      </span>
+      <span class="product_item"><img src="https://cdn.pixabay.com/photo/2016/02/13/22/52/bracelet-1198740_640.jpg"
+          alt="stone bracelet"></img>
+        <h2>Stone bracelet</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $80</p>
+      </span>
+      <span class="product_item"><img src="https://cdn.pixabay.com/photo/2015/05/26/09/48/chain-784422_640.jpg"
+          alt="gem pendant"></img>
+        <h2>Gem pendant</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $450</p>
+      </span>
+      <span class="product_item"><img src="https://cdn.pixabay.com/photo/2017/04/05/01/12/traveler-2203666_640.jpg"
+          alt="leather bag"></img>
+        <h2>Leather bag Brown</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $280</p>
+      </span>
+      <span class="product_item"><img
+          src="https://media.istockphoto.com/id/480357302/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD.jpg?s=612x612&w=0&k=20&c=EOBC0aMzJ2pHvSg9gAbjDrpoF1vq8fiqYT3r0qv6UaU="
+          alt="leather bag girl"></img>
+        <h2>Leather bag Black</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $170</p>
+      </span>
+      <span class="product_item"><img
+          src="https://media.istockphoto.com/id/1179302058/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%A2%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9A%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7.jpg?s=612x612&w=0&k=20&c=JXZaKJJgohX-tpaSe3ZMZIaAACVTmDd8jh0_KOFEs3k="
+          alt="leather bag girl blue"></img>
+        <h2>Leather bag blue</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $150</p>
+      </span>
+      <span class="product_item"><img
+          src="https://cdn.pixabay.com/photo/2017/02/24/03/35/engagement-ring-2093824_640.jpg" alt="ring"></img>
+        <h2>Ring</h2>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p class="price">Price $300</p>
+      </span>
+    </div>
+  </main>
+
+  <footer class="footer_shop">
+    <p>&copy; 2023 By Sojirat. All Rights Reserved.</p>
+  </footer>
+  </div>
+</body>
+
+</html>
